@@ -1,0 +1,17 @@
+.menu{
+  display:flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom:15px;
+}
+.menu a{
+color:white;
+text-transform: uppercase;
+padding:5px 17px;
+cursor: pointer;
+text-decoration: none;
+}
+.menu li{
+  list-style-type: none;
+}

@@ -3,8 +3,8 @@ import ReactDOM from 'react-dom';
 import App from './index';
 import { BrowserRouter } from "react-router-dom";
 
-// import "./styles/style.css";
-
+import 'bootstrap';
+import "./../../public/css/app.css";
 
 ReactDOM.render(
     <BrowserRouter>

@@ -1,0 +1,14 @@
+
+h1,
+h2,
+h3 {
+  line-height: 1.5;
+}
+
+// @for $i from 1 through 6 {
+//   h#{$i} {
+//     @include font-size(map.get($font-size, h#{$i}));
+//     font-family: family('secondary');
+//     font-weight: weight('semi-bold');
+//   }
+// }
