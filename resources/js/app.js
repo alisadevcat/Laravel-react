@@ -1,7 +1,14 @@
-import React from 'react'
-    import ReactDom from 'react-dom'
-    function Practice(){
-        return <h1>Hello World I am from React Functional Component</h1>
-    }
-    export default Practice
-    ReactDom.render(<Practice/>,document.getElementById('root'))
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './index';
+import { BrowserRouter } from "react-router-dom";
+
+// import "./styles/style.css";
+
+
+ReactDOM.render(
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>,
+    document.getElementById("root")
+  );

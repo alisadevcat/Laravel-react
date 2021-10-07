@@ -1,0 +1,31 @@
+[
+  {
+    "type": "table",
+    "name": "tbl_users",
+    "database": "mengen_av",
+    "data": [
+      {
+        "id": "1",
+        "login": "admin",
+        "passw": "1adbb3178591fd5bb0c248518f39bf6d",
+        "name": "Admin User",
+        "email": "dev@madebyforward.com",
+        "scope": "A",
+        "branch": "H036,H037,H038,H039,H040,H041",
+        "hash": null,
+        "active": "1"
+      },
+      {
+        "id": "2",
+        "login": "user",
+        "passw": "ba5c0e618103e9ae99afa154df71c89a",
+        "name": "Ai Vallarta",
+        "email": "dev@madebyforward.com",
+        "scope": "S",
+        "branch": "H036,H037,H038,H039,H040,H041",
+        "hash": null,
+        "active": "1"
+      }
+    ]
+  }
+]
